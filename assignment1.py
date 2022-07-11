@@ -51,12 +51,10 @@ print(result)
 h = input('Enter a value')
 try:
   if int(h):
-    h_int = int(h)
-    print(type(h_int)) 
+    print(type(int(h))) 
 except: 
   try:
-    h_float = float(h)
-    print(type(h_float)) 
+    print(type(float(h))) 
   except (ValueError):
     print(type(h)) 
 
