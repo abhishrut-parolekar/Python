@@ -2,12 +2,6 @@
 # 1)Create three variables in a single line and assign values to them in such a manner that each one of
 #   them belongs to a different data type.
 
-import cmath
-import imaplib
-from importlib import import_module
-import importlib
-
-
 a,b,c = 1,2.01,'string'
 print(type(a))
 print(type(b))
